@@ -6,10 +6,8 @@
 
 .header {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  margin: 92px 24px 96px;
-  max-height: 105px;
+  margin: 92px 24px 93px;
 }
 
 .header__menu {
@@ -51,7 +49,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-  padding-top: 6px;
+  padding-top: 8px;
   padding-right: 61px;
 }
 
@@ -61,9 +59,10 @@
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   position: relative;
   padding: 165px 50px 51px;
-  height: 757px;
+  min-height: 757px;
 }
 
 .overlay {
@@ -237,12 +236,12 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  margin: 0 50px 180px 25px;
+  margin: 0 50px 180px 22px;
   padding-top: 146px;
 }
 
 .about-column {
-  padding-top: 33px;
+  padding-top: 34px;
 }
 
 .about-logo {
@@ -278,20 +277,15 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  padding-left: 1.1em;
-}
-
-/**разметка параграфов в секции about**/
-.text_paragraph_one {
+  padding-left: 1.2em;
   word-spacing: 0.04em;
 }
-
-
 
 .footer {
   display: flex;
   justify-content: space-between;
   margin: 180px 50px 88px;
+  padding-top: 3px;
 }
 
 .address_footer {
@@ -302,9 +296,9 @@
   font-weight: 400;
   line-height: 24px;
   text-underline-position: under;
-  padding-right: 42px;
+  padding-right: 41px;
+  font-style: normal;
 }
-
 
 .footer__menu-list {
   list-style: none;
@@ -315,7 +309,6 @@
   line-height: 21px;
   text-underline-position: under;
 }
-
 
 .footer__social-list {
   display: flex;
